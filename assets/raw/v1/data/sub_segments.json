@@ -1,0 +1,97 @@
+[
+  {
+    "label": "Beleza e estética",
+    "key": "beleza_estetica",
+    "subsegments": [
+      { "label": "Barbearias", "key": "barbearias" },
+      { "label": "Salões de beleza", "key": "saloes_beleza" },
+      { "label": "Clínicas de estética", "key": "clinicas_estetica" },
+      { "label": "Manicure e pedicure", "key": "manicure_pedicure" },
+      { "label": "Maquiadores", "key": "maquiadores" },
+      { "label": "Depilação", "key": "depilacao" },
+      { "label": "Spa urbano", "key": "spa_urbano" },
+      { "label": "Cabeleireiros de noiva", "key": "cabeleireiros_noiva" }
+    ]
+  },
+  {
+    "label": "Saúde e bem-estar",
+    "key": "saude_bem_estar",
+    "subsegments": [
+      { "label": "Clínicas médicas", "key": "clinicas_medicas" },
+      { "label": "Dentistas", "key": "dentistas" },
+      { "label": "Psicólogos", "key": "psicologos" },
+      { "label": "Fisioterapeutas", "key": "fisioterapeutas" },
+      { "label": "Nutricionistas", "key": "nutricionistas" },
+      { "label": "Massoterapeutas", "key": "massoterapeutas" },
+      { "label": "Quiropraxistas", "key": "quiropraxistas" }
+    ]
+  },
+  {
+    "label": "Fitness e esportes",
+    "key": "fitness_esportes",
+    "subsegments": [
+      { "label": "Academias", "key": "academias" },
+      { "label": "Personal trainers", "key": "personal_trainers" },
+      { "label": "Estúdios de pilates", "key": "pilates" },
+      { "label": "Estúdios de yoga", "key": "yoga" },
+      { "label": "Quadras esportivas", "key": "quadras_esportivas" },
+      { "label": "Centros de crossfit", "key": "crossfit" }
+    ]
+  },
+  {
+    "label": "Educação e cursos",
+    "key": "educacao_cursos",
+    "subsegments": [
+      { "label": "Professores particulares", "key": "professores_particulares" },
+      { "label": "Escolas de idiomas", "key": "idiomas" },
+      { "label": "Cursos livres", "key": "cursos_livres" },
+      { "label": "Aulas de música", "key": "aulas_musica" },
+      { "label": "Mentorias e coaching", "key": "mentorias_coaching" },
+      { "label": "Cursos técnicos", "key": "cursos_tecnicos" }
+    ]
+  },
+  {
+    "label": "Serviços automotivos",
+    "key": "servicos_automotivos",
+    "subsegments": [
+      { "label": "Oficinas mecânicas", "key": "oficinas_mecanicas" },
+      { "label": "Estética automotiva", "key": "estetica_automotiva" },
+      { "label": "Troca de óleo", "key": "troca_oleo" },
+      { "label": "Vistoria veicular", "key": "vistoria_veicular" },
+      { "label": "Auto centers", "key": "auto_centers" },
+      { "label": "Funilaria e pintura", "key": "funilaria_pintura" }
+    ]
+  },
+  {
+    "label": "Pets e veterinária",
+    "key": "pets_veterinaria",
+    "subsegments": [
+      { "label": "Pet shops", "key": "pet_shops" },
+      { "label": "Clínicas veterinárias", "key": "clinicas_veterinarias" },
+      { "label": "Banho e tosa", "key": "banho_tosa" },
+      { "label": "Adestradores", "key": "adestradores" },
+      { "label": "Day care para pets", "key": "daycare_pets" }
+    ]
+  },
+  {
+    "label": "Eventos e fotografia",
+    "key": "eventos_fotografia",
+    "subsegments": [
+      { "label": "Estúdios fotográficos", "key": "estudios_fotograficos" },
+      { "label": "Locação de espaços", "key": "locacao_espacos" },
+      { "label": "Produtores de eventos", "key": "produtores_eventos" },
+      { "label": "Cerimonialistas", "key": "cerimonialistas" }
+    ]
+  },
+  {
+    "label": "Negócios e consultoria",
+    "key": "negocios_consultoria",
+    "subsegments": [
+      { "label": "Consultorias empresariais", "key": "consultorias_empresariais" },
+      { "label": "Contabilidades", "key": "contabilidades" },
+      { "label": "Escritórios de advocacia", "key": "advocacia" },
+      { "label": "Coworkings", "key": "coworkings" },
+      { "label": "Serviços de RH e recrutamento", "key": "rh_recrutamento" }
+    ]
+  }
+]

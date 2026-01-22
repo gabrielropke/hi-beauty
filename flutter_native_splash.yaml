@@ -1,0 +1,11 @@
+flutter_native_splash:
+  color: "#F8F8F8"
+
+  image_ios: assets/brands/HiBeauty-Splash.png
+  image: assets/brands/HiBeauty-Splash.png
+
+  android_12:
+    image: assets/brands/HiBeauty-Splash.png
+    color: "#F8F8F8"
+  android: true
+  ios: true

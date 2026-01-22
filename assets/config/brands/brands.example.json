@@ -1,0 +1,64 @@
+{
+  "hibarber": {
+    "id": "hibarber",
+    "name": "hibarber",
+    "displayName": "Hi Barber",
+    "domain": "hibarber.example",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#CCCCCC",
+      "accent": "#EEEEEE",
+      "background": "#FFFFFF",
+      "text": "#000000"
+    },
+    "logo": {
+      "light": "assets/HiBarber-Logo-Black.png",
+      "dark": "assets/HiBarber-Logo-White.png"
+    },
+    "favicon": "assets/favicon-hibarber.ico",
+    "theme": {
+      "borderRadius": "0.5rem",
+      "fontFamily": "Inter, system-ui, sans-serif"
+    },
+    "api": {
+      "baseUrl": "https://api.example.com",
+      "brandHeader": "hi_barber"
+    },
+    "seo": {
+      "title": "Hi Barber - App Example",
+      "description": "Descrição exemplo do app Hi Barber.",
+      "keywords": ["example", "brand"]
+    }
+  },
+  "hibeauty": {
+    "id": "hibeauty",
+    "name": "hibeauty",
+    "displayName": "Hi Beauty",
+    "domain": "hibeauty.example",
+    "colors": {
+      "primary": "#ec4899",
+      "secondary": "#f472b6",
+      "accent": "#be185d",
+      "background": "#FFFFFF",
+      "text": "#1f2937"
+    },
+    "logo": {
+      "light": "assets/HiBeauty-Logo-Black.png",
+      "dark": "assets/HiBeauty-Logo-White.png"
+    },
+    "favicon": "assets/favicon-hibeauty.ico",
+    "theme": {
+      "borderRadius": "0.75rem",
+      "fontFamily": "Poppins, system-ui, sans-serif"
+    },
+    "api": {
+      "baseUrl": "https://api.example.com",
+      "brandHeader": "hi_beauty"
+    },
+    "seo": {
+      "title": "Hi Beauty - App Example",
+      "description": "Descrição exemplo do app Hi Beauty.",
+      "keywords": ["example", "brand"]
+    }
+  }
+}
