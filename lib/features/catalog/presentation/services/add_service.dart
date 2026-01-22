@@ -205,6 +205,8 @@ class _AddServiceModalState extends State<_AddServiceModal>
   }
 
   Future<void> _pickServiceImage() async {
+    if (!mounted) return;
+    
     final l10n = widget.l10n;
     final file = await _imagePickerHelper.pickImage(
       context: context,
@@ -212,6 +214,7 @@ class _AddServiceModalState extends State<_AddServiceModal>
       imageSource: ImageSource.gallery,
       allowedExtensions: ['jpg', 'jpeg', 'png'],
     );
+    
     if (mounted && file != null) {
       setState(() {
         _serviceImage = file;
