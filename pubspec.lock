@@ -517,6 +517,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
+  hi_core:
+    dependency: "direct main"
+    description:
+      path: "../hi_core"
+      relative: true
+    source: path
+    version: "0.0.1+5"
   html:
     dependency: transitive
     description:
