@@ -523,7 +523,7 @@ packages:
       path: "../hi_core"
       relative: true
     source: path
-    version: "0.0.1+5"
+    version: "0.0.1+6"
   html:
     dependency: transitive
     description:
