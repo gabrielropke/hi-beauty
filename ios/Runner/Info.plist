@@ -24,6 +24,20 @@
 		<string>????</string>
 		<key>CFBundleURLTypes</key>
 		<array>
+
+			<!-- Apple -->
+			<dict>
+				<key>CFBundleTypeRole</key>
+				<string>Editor</string>
+				<key>CFBundleURLName</key>
+				<string>signinwithapple</string>
+				<key>CFBundleURLSchemes</key>
+				<array>
+					<string>co.hibeauty</string>
+				</array>
+			</dict>
+
+			<!-- Google -->
 			<dict>
 				<key>CFBundleTypeRole</key>
 				<string>Editor</string>
@@ -32,6 +46,7 @@
 					<string>com.googleusercontent.apps.989293959225-ljgj19ospkulbv7h62uk8ta0qoboaeu4</string>
 				</array>
 			</dict>
+
 		</array>
 		<key>CFBundleVersion</key>
 		<string>$(FLUTTER_BUILD_NUMBER)</string>

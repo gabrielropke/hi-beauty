@@ -1,12 +1,33 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.hibeauty">
 
     <!-- Permissão obrigatória para Google Sign-In -->
     <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- Permissão necessária para Android 13+ se o app ou SDKs usarem ID de publicidade -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
 
     <application
         android:label="hibeauty"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+        <!-- META SDK FACEBOOK -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.AutoInitEnabled"
+            android:value="true"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true"/>
 
         <activity
             android:name=".MainActivity"
