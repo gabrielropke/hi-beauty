@@ -50,6 +50,8 @@
 		</array>
 		<key>CFBundleVersion</key>
 		<string>$(FLUTTER_BUILD_NUMBER)</string>
+		<key>NSContactsUsageDescription</key>
+		<string>O app utiliza o acesso a lista de contatos, para caso o usuário queira cadastrar contatos como clientes.</string>
 		<key>LSRequiresIPhoneOS</key>
 		<true/>
 		<key>UIApplicationSupportsIndirectInputEvents</key>
@@ -70,6 +72,10 @@
 			<string>UIInterfaceOrientationPortraitUpsideDown</string>
 			<string>UIInterfaceOrientationLandscapeLeft</string>
 			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>LSApplicationQueriesSchemes</key>
+		<array>
+			<string>whatsapp</string>
 		</array>
 		<key>UIStatusBarHidden</key>
 		<false/>

@@ -21,6 +21,8 @@ PODS:
     - FBSDKCoreKit_Basics (= 18.0.3)
   - FBSDKCoreKit_Basics (18.0.3)
   - Flutter (1.0.0)
+  - flutter_contacts (0.0.1):
+    - Flutter
   - flutter_native_splash (2.4.3):
     - Flutter
   - flutter_secure_storage (6.0.0):
@@ -82,6 +84,7 @@ DEPENDENCIES:
   - cupertino_native (from `.symlinks/plugins/cupertino_native/ios`)
   - facebook_app_events (from `.symlinks/plugins/facebook_app_events/ios`)
   - Flutter (from `Flutter`)
+  - flutter_contacts (from `.symlinks/plugins/flutter_contacts/ios`)
   - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
   - flutter_secure_storage (from `.symlinks/plugins/flutter_secure_storage/ios`)
   - google_sign_in_ios (from `.symlinks/plugins/google_sign_in_ios/darwin`)
@@ -116,6 +119,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/facebook_app_events/ios"
   Flutter:
     :path: Flutter
+  flutter_contacts:
+    :path: ".symlinks/plugins/flutter_contacts/ios"
   flutter_native_splash:
     :path: ".symlinks/plugins/flutter_native_splash/ios"
   flutter_secure_storage:
@@ -150,6 +155,7 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 65d7f7a7d6fcc3aa6eb6e093ec737a4184fc6049
   FBSDKCoreKit_Basics: 7bc9d8fde8f70985fba2ed7c1d07e319f969a991
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_contacts: edb1c5ce76aa433e20e6cb14c615f4c0b66e0983
   flutter_native_splash: df59bb2e1421aa0282cb2e95618af4dcb0c56c29
   flutter_secure_storage: d33dac7ae2ea08509be337e775f6b59f1ff45f12
   google_sign_in_ios: 7336a3372ea93ea56a21e126a0055ffca3723601

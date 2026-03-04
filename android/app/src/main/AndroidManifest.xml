@@ -7,6 +7,9 @@
     <!-- Permissão necessária para Android 13+ se o app ou SDKs usarem ID de publicidade -->
     <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
 
+    <!-- Permissão para ler contatos e cadastrar como clientes -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
     <application
         android:label="hibeauty"
         android:name="${applicationName}"
