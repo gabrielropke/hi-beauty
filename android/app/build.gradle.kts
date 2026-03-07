@@ -20,6 +20,32 @@ android {
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
+    packaging {
+        resources {
+            // 🔹 Exclusões robustas para arquivos macOS
+            excludes += "/**/._*"
+            excludes += "**/._*"
+            excludes += "**/*._*"
+            excludes += "._*"
+            excludes += "/**/.DS_Store"
+            excludes += "**/.DS_Store"
+            excludes += ".DS_Store"
+            excludes += "**/__MACOSX/**"
+            excludes += "__MACOSX/**"
+            excludes += "**/.Spotlight-V100"
+            excludes += "**/.Trashes"
+            excludes += "**/*~"
+            excludes += "**/*.tmp"
+            excludes += "**/*.bak"
+        }
+        
+        // 🔹 Filtros adicionais para packaged resources
+        jniLibs {
+            excludes += "/**/._*"
+            excludes += "**/._*"
+        }
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
