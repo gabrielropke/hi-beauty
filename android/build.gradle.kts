@@ -14,6 +14,12 @@ rootProject.layout.buildDirectory.value(newBuildDir)
 subprojects {
     val newSubprojectBuildDir: Directory = newBuildDir.dir(project.name)
     project.layout.buildDirectory.value(newSubprojectBuildDir)
+
+    tasks.matching { it.name.startsWith("bundleLibRuntimeToDir") }.configureEach {
+        doFirst {
+            delete(layout.buildDirectory.dir("intermediates/runtime_library_classes_dir"))
+        }
+    }
 }
 subprojects {
     project.evaluationDependsOn(":app")

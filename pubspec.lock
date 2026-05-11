@@ -9,6 +9,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "91.0.0"
+  _flutterfire_internals:
+    dependency: transitive
+    description:
+      name: _flutterfire_internals
+      sha256: bda3b7b55958bfd867addc40d067b4b11f7b8846d57671f5b5a6e7f9a56fe3ad
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.3.69"
   analyzer:
     dependency: transitive
     description:
@@ -289,6 +297,54 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.9.3+4"
+  firebase_core:
+    dependency: "direct main"
+    description:
+      name: firebase_core
+      sha256: d5a94b884dcb1e6d3430298e94bfe002238094cdfd5e29202d536ee2120f9158
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.7.0"
+  firebase_core_platform_interface:
+    dependency: transitive
+    description:
+      name: firebase_core_platform_interface
+      sha256: "0ecda14c1bfc9ed8cac303dd0f8d04a320811b479362a9a4efb14fd331a473ce"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.3"
+  firebase_core_web:
+    dependency: transitive
+    description:
+      name: firebase_core_web
+      sha256: dc5096257cd67292d34d78ceeb90836f02a4be921b5f3934311a02bb2376118c
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.6.0"
+  firebase_remote_config:
+    dependency: "direct main"
+    description:
+      name: firebase_remote_config
+      sha256: "4d6a88587fc5d7f74f784614dc4f4f3a809a7e3fb3ea860039d07cde1e33fb86"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.4.0"
+  firebase_remote_config_platform_interface:
+    dependency: transitive
+    description:
+      name: firebase_remote_config_platform_interface
+      sha256: "1a83a256052dbb1ed7d50afa796a8528542e79619b5baecb9a02e226728088dd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.2"
+  firebase_remote_config_web:
+    dependency: transitive
+    description:
+      name: firebase_remote_config_web
+      sha256: fc2e7e41f536af73743105fccf0a5c71e635209d892e64e15fc8ba20756ad65f
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.10.6"
   fixnum:
     dependency: transitive
     description:
@@ -627,7 +683,7 @@ packages:
       path: "../hi_core"
       relative: true
     source: path
-    version: "0.0.2+7"
+    version: "0.0.3+8"
   html:
     dependency: transitive
     description:
@@ -908,6 +964,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
+  mixpanel_flutter:
+    dependency: "direct main"
+    description:
+      name: mixpanel_flutter
+      sha256: "6962b8ce61eb6202d6545bee648e21a7bc9f7e804fa293912e9673329f499ece"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.7.0"
   motor:
     dependency: transitive
     description:
@@ -932,6 +996,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+  onesignal_flutter:
+    dependency: "direct main"
+    description:
+      name: onesignal_flutter
+      sha256: "12bccb6649658af2af23e79ad092026a5a9339f1517e171e59dd8a8b46ffd02a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.5.3"
   package_config:
     dependency: transitive
     description:
